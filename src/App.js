@@ -140,7 +140,7 @@ function App() {
           <div class="office">
             <div class="barcode_div">
               <div class="barcode">
-              {<QRCode size="103" value={v.RollNo} />}
+              {<QRCode size="102" value={v.RollNo} />}
               </div>
             </div>
 

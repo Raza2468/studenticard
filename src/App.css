@@ -6,7 +6,7 @@ body {
 
 .main {
   position: relative;
-  height: 376px;
+  height: 377px;
   /* padding: 50px; */
   /* border: 1px solid goldenrod; */
   /* background-color: greenyellow; */
@@ -124,7 +124,7 @@ body {
   margin-top: -15px;
   height: 40px;
   color: white;
-  padding-top: 1px;
+  /* padding-top: 1px; */
   width: 268px;
   text-align: center;
   margin-right: auto;
