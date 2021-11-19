@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  height: 376px;
+  /* padding: 50px; */
+  /* border: 1px solid goldenrod; */
+  /* background-color: greenyellow; */
+}
+
+.card_front {
+  border: solid rgb(8, 115, 185);
+  width: 310px;
+  height: 450px;
+  display: inline-block;
+  transform: rotate(270deg);
+  position: absolute;
+  left: 105px;
+  top: 208px;
+
+}
+
+
+
+.card_back {
+  background-color: rgb(8, 115, 185);
+  width: 310px;
+  height: 450px;
+  display: inline-block;
+  position: absolute;
+  transform: rotate(450deg);
+  left: 610px;
+  top: 208px;
+}
+
+.logo img {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* padding-top: 10px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border {
+  background-color: rgb(8, 115, 185);
+  border-bottom: 3px solid rgb(8, 115, 185);
+  border-radius: 10px;
+  width: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+}
+
+.student_img {
+  width: 170px;
+  height: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: solid rgb(8, 115, 185);
+  background-repeat: no-repeat;
+  background-size: 130px 140px;
+}
+
+/* .student_img img{
+    border-radius: 25px;
+    width: 8.125rem;
+    height: 8.75rem;
+} */
+.name {
+  position: relative;
+}
+
+.name p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 33px;
+  color: rgb(8, 115, 185);
+}
+
+.student_info {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  /* background-color: yellow; */
+}
+
+.student_info .card_num {
+  border: solid rgb(8, 115, 185);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 40px;
+  color: rgb(8, 115, 185);
+  padding-top: 6px;
+  margin-top: 26px;
+  width: 195px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 18px;
+  /* position: absolute; */
+  /* left: 10px; */
+  /* right: 10px; */
+  /* top: -32px; */
+}
+
+.student_info .course {
+  border: 1px solid rgb(8, 115, 185);
+  background-color: rgb(8, 115, 185);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -15px;
+  height: 40px;
+  color: white;
+  padding-top: 1px;
+  width: 268px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 23px;
+  
+  /* position: absolute; */
+  /* top: 0px; */
+  /* left: 10px; */
+  /* right: 10px; */
+  /* font-weight: bold; */
+}
+
+.card_back .info {
+    
+  width: 280px;
+  height: 225px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  right: 10px;
+  padding: 5px;
+  /* font-size: 16px; */
+  border-radius: 10px;
+}
+
+.card_back .office {
+  width: 280px;
+  height: 135px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  position: absolute;
+  /* top: 240px; */
+  margin-top: 270px;
+  left: 10px;
+  right: 10px;
+  /* border: 1px solid red; */
+}
+
+.barcode_div {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 5px;
+  /* background-color: blue; */
+}
+
+.barcode_div .barcode {
+  width: 100px;
+  height: 95px;
+  position: absolute;
+  /* top: 5px;
+  left: 5px;
+  right: 5px; */
+  /* bottom: 5px; */
+  /* padding: 5px; */
+  /* margin: 5px; */
+  /* background-color: lightslategrey; */
+}
+
+hr {
+  width: 115px;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+
+  border-bottom: 1px solid;
+}
+
+.signby p {
+  position: absolute;
+  top: 93px;
+  right: 20px;
+  font-size: 17px;
+}
+
+.td {
+  width: 100px;
+  height: 40px;
+}
+
+.fb_id p {
+  font-size: 17px;
+  top: 140px;
+  position: absolute;
+  /* display: block; */
+  margin-left: 45px;
+  /* margin-right: auto; */
+  /* margin-top: 20px; */
+  /* border-radius: 25px; */
+  font-weight: bold;
+  color: white;
+}
+
+.fb_id i {
+  color: white;
+}
+
+table {
+  color: black;
+  font-weight: 600;
+}
